@@ -1,0 +1,5 @@
+frase = input('digite alguma frase: ').strip()
+frase=frase.lower()
+print(f'a frase possui {frase.count('a')} A')
+print(f'o primeiro a aparece na posição {frase.find('a')+1}')
+print(f'o ultimmo a aparece na posição {frase.rfind('a')+1}')

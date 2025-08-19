@@ -11,6 +11,5 @@ while num != cpu:
     cont += 1
     print('Você errou tente novamente! :( ')
     num = int(input('informe um número: '))
-    cpu = randint(1, 11)
 
 print(f'Parabés você acertou!!! após {cont} tentativas ;)')

@@ -1,12 +1,8 @@
 nome = str(input('informe o seu nome: '))
-sexo= str(input('informe o sexo [M/F]: ').upper)
+sexo= str(input('informe o sexo [M/F]: ').upper().strip())#coloca em aiuscula, tira os espaços
 
-loop = 1
-while loop == 1:
-    if sexo == "M" or sexo == "F":
-        loop = 0
-        
-    else:
-        sexo = str(input('informe o sexo condizente [M/F]: ').upper())
+
+while  sexo != 'M' and  sexo != 'F':      
+    sexo = str(input('informe o sexo [M/F]: ').upper().strip())
 
 print(f'Nome: {nome} \nSexo: {sexo}')

@@ -25,5 +25,5 @@ while loop == True:
         loop = False
     
 print('')
-print(f'fim'.center(25,'='))
+print(f'fim'.center(30,'='))
 print('')

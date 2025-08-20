@@ -8,7 +8,6 @@ while cont < 10:
     cont += 1
     print(an, end=' ')
     an += r
-    
 
 loop = True
 while loop == True:

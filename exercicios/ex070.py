@@ -18,8 +18,6 @@ while True:
     if preco > 1000.00:
         maiores1000 += 1
     
-    
-
     print('-'*20)
     op = str(input('quer continuar [s/n] ? ').upper())
     if op == 'N':
@@ -30,8 +28,6 @@ while True:
         
         if op == 'N':
             break
-
-
     
 menorpreco = min(lprecos)
 idmenor = lprecos.index(menorpreco)

@@ -6,4 +6,4 @@ while True:
     elif n not in numeros:
         numeros.append(n)
 numeros.sort()
-print(numeros)
+print('números únicos e ordenados : ',numeros)

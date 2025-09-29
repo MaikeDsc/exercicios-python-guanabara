@@ -1,7 +1,6 @@
 pessoas = []
 
-cont = 0
-soma_peso = 0
+soma_peso = cont = 0
 
 while True: 
     dados =[]

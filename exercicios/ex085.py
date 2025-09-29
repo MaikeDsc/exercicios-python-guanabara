@@ -10,4 +10,5 @@ for c in range(8):
         numeros[1].append(n)
 
 print('Pares:', ', '.join( map(str, sorted(numeros[0])) ) ) 
-print('Inpares:', ', '.join( map(str, sorted(numeros[1])) ) ) 
+print('Inpares:', ', '.join( map(str, sorted(numeros[1])) ) )
+ 
